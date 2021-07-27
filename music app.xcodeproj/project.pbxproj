@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132A364E26A966F200FD5FD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13793AD626A881BD00850371 /* Assets.xcassets */; };
 		13793AA926A434F800850371 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13793AA826A434F800850371 /* AppDelegate.swift */; };
 		13793AAB26A434F800850371 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13793AAA26A434F800850371 /* SceneDelegate.swift */; };
 		13793AAD26A434F800850371 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13793AAC26A434F800850371 /* ViewController.swift */; };
 		13793AB026A434F800850371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13793AAE26A434F800850371 /* Main.storyboard */; };
-		13793AB226A434FC00850371 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13793AB126A434FC00850371 /* Assets.xcassets */; };
 		13793AB526A434FC00850371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13793AB326A434FC00850371 /* LaunchScreen.storyboard */; };
 		13793AC026A434FC00850371 /* music_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13793ABF26A434FC00850371 /* music_appTests.swift */; };
 		13793ACA26A434FC00850371 /* music_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13793AC926A434FC00850371 /* music_appUITests.swift */; };
@@ -40,13 +40,13 @@
 		13793AAA26A434F800850371 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		13793AAC26A434F800850371 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13793AAF26A434F800850371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13793AB126A434FC00850371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13793AB426A434FC00850371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13793AB626A434FC00850371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13793ABB26A434FC00850371 /* music appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "music appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13793ABF26A434FC00850371 /* music_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_appTests.swift; sourceTree = "<group>"; };
 		13793AC526A434FC00850371 /* music appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "music appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13793AC926A434FC00850371 /* music_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = music_appUITests.swift; sourceTree = "<group>"; };
+		13793AD626A881BD00850371 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 				13793AAA26A434F800850371 /* SceneDelegate.swift */,
 				13793AAC26A434F800850371 /* ViewController.swift */,
 				13793AAE26A434F800850371 /* Main.storyboard */,
-				13793AB126A434FC00850371 /* Assets.xcassets */,
+				13793AD626A881BD00850371 /* Assets.xcassets */,
 				13793AB326A434FC00850371 /* LaunchScreen.storyboard */,
 				13793AB626A434FC00850371 /* Info.plist */,
 			);
@@ -229,7 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13793AB526A434FC00850371 /* LaunchScreen.storyboard in Resources */,
-				13793AB226A434FC00850371 /* Assets.xcassets in Resources */,
+				132A364E26A966F200FD5FD2 /* Assets.xcassets in Resources */,
 				13793AB026A434F800850371 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +438,10 @@
 				DEVELOPMENT_TEAM = 8PL9W8F7GL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "music app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bomm;
+				INFOPLIST_KEY_CFBundleExecutable = "music app";
+				INFOPLIST_KEY_CFBundleName = "music app";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -466,6 +470,10 @@
 				DEVELOPMENT_TEAM = 8PL9W8F7GL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "music app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Bomm;
+				INFOPLIST_KEY_CFBundleExecutable = "music app";
+				INFOPLIST_KEY_CFBundleName = "music app";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
